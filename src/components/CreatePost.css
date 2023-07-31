@@ -1,0 +1,60 @@
+/* CreatePost.css */
+
+/* Assuming you want to center the form */
+body{
+    background-color: burlywood;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .caption {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    width: 80%;
+    max-width: 600px; /* Adjust the max-width to your preference */
+  }
+  
+  input[type="file"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: azure;
+    
+  }
+  button:hover{
+    background-color: blanchedalmond;
+    color: #333;
+  }
+  
